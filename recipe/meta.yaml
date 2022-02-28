@@ -21,7 +21,7 @@ requirements:
     - python >=3.7
   run:
     - httpx ==0.22.*
-    - pytest >=6.*,<8.*
+    - pytest >=6.*,<8
     - python >=3.7
 
 test:
