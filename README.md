@@ -1,11 +1,11 @@
-About pytest-httpx
-==================
+About pytest-httpx-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-httpx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://colin-b.github.io/pytest_httpx/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-httpx-feedstock/blob/main/LICENSE.txt)
 
 Summary: Send responses to httpx.
 

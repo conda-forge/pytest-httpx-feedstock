@@ -1,5 +1,5 @@
 {% set name = "pytest-httpx" %}
-{% set version = "0.21.3" %}
+{% set version = "0.22.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest_httpx-{{ version }}.tar.gz
-  sha256: edcb62baceffbd57753c1a7afc4656b0e71e91c7a512e143c0adbac762d979c1
+  sha256: 3a82797f3a9a14d51e8c6b7fa97524b68b847ee801109c062e696b4744f4431c
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - httpx ==0.23.*
+    - httpx ==0.24.*
     - pytest >=6.*,<8
     - python >=3.7
 
