@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - httpx ==0.23.*
+    - httpx ==0.24.*
     - pytest >=6.*,<8
     - python >=3.7
 
