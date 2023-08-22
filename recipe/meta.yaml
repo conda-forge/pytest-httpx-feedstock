@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.9
   run:
     - httpx ==0.24.*
     - pytest >=6.*,<8
