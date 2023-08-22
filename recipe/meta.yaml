@@ -22,7 +22,7 @@ requirements:
   run:
     - httpx ==0.24.*
     - pytest >=6.*,<8
-    - python >=3.7
+    - python >=3.9
 
 test:
   imports:
