@@ -1,5 +1,5 @@
 {% set name = "pytest-httpx" %}
-{% set version = "0.23.1" %}
+{% set version = "0.24.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest_httpx-{{ version }}.tar.gz
-  sha256: cfed19eb8b13cbdf464bbb1c4ef88717d88d42334aa9ce516e56e46975c77f74
+  sha256: 259e6266cf3e04eb8fcc18dff262657ad96f6b8668dc2171fb353eaec5571889
 
 build:
   number: 0
