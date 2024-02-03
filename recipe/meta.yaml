@@ -20,8 +20,8 @@ requirements:
     - pip
     - python >=3.9
   run:
-    - httpx ==0.25.*
-    - pytest >=6.*,<8
+    - httpx ==0.26.*
+    - pytest >=7.*,<9
     - python >=3.9
 
 test:
