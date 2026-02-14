@@ -1,6 +1,6 @@
 {% set name = "pytest-httpx" %}
-{% set version = "0.35.0" %}
-{% set python_min = "3.9" %}
+{% set version = "0.36.0" %}
+{% set python_min = "3.10" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d619ad5d2e67734abfbb224c3d9025d64795d4b8711116b1a13f72a251ae511f
+  sha256: 9edb66a5fd4388ce3c343189bc67e7e1cb50b07c2e3fc83b97d511975e8a831b
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - setuptools_scm
   run:
     - httpx ==0.28.*
-    - pytest >=7.*,<9
+    - pytest ==9.*
     - python >={{ python_min }}
 
 test:
